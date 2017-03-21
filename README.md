@@ -11,7 +11,7 @@
 
 At the high level, it builds this:
 
-![Diagram](https://raw.githubusercontent.com/brocade-vadc/images/vADC_with_Puppet_and_Web_Servers.png "High level diagram")
+![Diagram](https://raw.githubusercontent.com/brocade-vadc/aws-cloudformation-puppet/master/images/vADC_with_Puppet_and_Web_Servers.png "High level diagram")
 
 The first part of the template builds the cluster of 2 vADCs. Note:
 
