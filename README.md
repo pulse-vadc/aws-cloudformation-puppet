@@ -68,6 +68,9 @@ For demo / test purposes, you can use this template directly. Make note of the R
 
 You can deploy this template directly through AWS console or CLI, by downloading it to your computer first. All inputs are labelled, and should present no trouble. Once the deployment is complete, connect to your new vADC cluster on the URL displayed in the Output, and login as admin with the password that you've supplied, or "Password123" if you accepted the default. Your example web app should be accessible through HTTP or HTTPS on the domain you've specified (if you've delegated the DNS zone to Route53), or on either of the WebAppIPs in the Outputs section after deployment.
 
+You can also launch this template into us-east-1 region by clicking the "Launch Stack" button below:
+
+<a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=Brocade-vADC-webapp&templateURL=https://s3.amazonaws.com/zxtm-cloudformation/vADC-Deploy-Puppet-EIP.template"><img src=https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png></a>
 
 **Note**: You will need to activate either hourly or annual subscription to Brocade vADC software through the AWS Marketplace before you'll be able to deploy this template successfully. To do this:
 
